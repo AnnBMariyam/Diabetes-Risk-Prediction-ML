@@ -10,6 +10,17 @@
 
 ---
 
+## 📊 Model Comparison Preview
+
+![Four Model Comparison](images/4Models_Comparison.png)
+
+**Result:** The Neural Network achieved the strongest overall performance,
+with **97.14% accuracy** and **0.9764 AUC-ROC**, while Random Forest produced
+closely comparable accuracy.
+
+---
+
+
 ## 📌 Project Overview
 
 Diabetes affects over 537 million adults worldwide, yet early detection remains a major challenge. This project applies supervised machine learning to classify diabetes risk using routine patient health indicators such as glucose level, BMI, age, blood pressure, and insulin levels.

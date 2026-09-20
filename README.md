@@ -101,7 +101,20 @@ Data Loading → EDA → Preprocessing → Feature Engineering → Model Trainin
 ### 🏆 Best Model: Neural Network
 - Highest Accuracy (97.14%), F1-Score (0.8058), and AUC-ROC (0.9764)
 - Random Forest was a close second — nearly identical accuracy with simpler interpretability
+### Neural Network ROC Curve
 
+![Neural Network ROC Curve](images/ROC_Neural_Network.png)
+
+The Neural Network achieved an **AUC-ROC of 0.9764**, showing strong ability to
+distinguish between diabetic and non-diabetic cases across classification thresholds.
+
+### Neural Network Confusion Matrix
+
+![Neural Network Confusion Matrix](images/Neural_network_Confusion_Matrix.png)
+
+The confusion matrix shows that although the model achieved high overall accuracy,
+some diabetic cases were still missed. This is reflected in the model's recall of
+**0.695**, making false negatives an important consideration when evaluating the model.
 ---
 
 ## 🔍 Key Insights

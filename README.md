@@ -115,6 +115,7 @@ distinguish between diabetic and non-diabetic cases across classification thresh
 The confusion matrix shows that although the model achieved high overall accuracy,
 some diabetic cases were still missed. This is reflected in the model's recall of
 **0.695**, making false negatives an important consideration when evaluating the model.
+
 ---
 
 ## 🔍 Key Insights
